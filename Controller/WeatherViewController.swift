@@ -97,7 +97,7 @@ extension WeatherViewController: WeatherManagerDelegate{
             self.conditionImageView.image = UIImage(systemName: weather.conditionName)
             self.temperatureLabel.text = weather.temperatureString;
             self.imperialTemperatureLabel.text = weather.convertedTempString;
-            //self.weatherDescriptionLabel.text = weather.weatherDescString;
+            self.weatherDescriptionLabel.text = weather.weatherDesc;
             self.cityLabel.text = weather.cityName;
             
         }

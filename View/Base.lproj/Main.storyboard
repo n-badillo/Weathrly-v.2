@@ -10,7 +10,7 @@
         <!--Metric-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="Weathrly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g3Y-cT-2C3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
                         <outlet property="imperialTemperatureLabel" destination="X7Q-Nc-jXf" id="fl5-7U-Mov"/>
                         <outlet property="searchTextField" destination="2eh-wL-W34" id="tfh-UF-QBM"/>
                         <outlet property="temperatureLabel" destination="w9o-tW-03D" id="mF4-vV-JxK"/>
-                        <outlet property="weatherDescriptionLabel" destination="bI1-Ey-KKR" id="aVN-cV-Iz2"/>
+                        <outlet property="weatherDescriptionLabel" destination="bI1-Ey-KKR" id="1WW-fL-tpT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
